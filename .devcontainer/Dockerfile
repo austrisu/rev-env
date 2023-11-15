@@ -1,12 +1,12 @@
 FROM ubuntu:20.04
 
+ENV DEBIAN_FRONTEND=noninteractive
+
 RUN apt update \
+ && DEBIAN_FRONTEND="noninteractive" \
  && apt install -y \
         git \
-        clang \
-        clangd \
         clang-format \
-        cmake \
         ninja-build \
         gdb \
         bsdmainutils \
@@ -22,7 +22,7 @@ RUN apt update \
         curl \
         binwalk \
         file \
- && apt remove -y gcc gcc-11
+        binutils
 
 WORKDIR /home
  #  pwngdb
