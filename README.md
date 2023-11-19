@@ -3,36 +3,36 @@ This Docker Codespace is designed for use in reverse CTF (Capture The Flag) chal
 
 ### Development Tools:
 
-Git
-Clang-format
-Ninja-build
-GDB (GNU Debugger)
-Python 3 and essential development packages
-Strace
-Vim, Nano, Less
+- Git
+- Clang-format
+- Ninja-build
+- GDB (GNU Debugger)
+- Python 3 and essential development packages
+- Strace
+- Vim, Nano, Less
 
 ### Binary Analysis Tools:
-Binwalk
-File
-Binutils
-Ropper
+- Binwalk
+- File
+- Binutils
+- Ropper
 
 ### Debugging Tools:
-Pwngdb (GDB plugin for exploit development)
-Radare2 (Reverse engineering framework)
+- Pwngdb (GDB plugin for exploit development)
+- Radare2 (Reverse engineering framework)
 
 ### Static Analysis Tools:
-Miasm (Reverse engineering framework)
-Frida (Dynamic instrumentation toolkit)
-Lief (Library to Instrument Executable Formats)
-Pefile (Python module to read and work with PE files)
+- Miasm (Reverse engineering framework)
+- Frida (Dynamic instrumentation toolkit)
+- Lief (Library to Instrument Executable Formats)
+- Pefile (Python module to read and work with PE files)
 
 ### Binary Exploitation Tools:
-Angr (Binary analysis framework)
-Xortool (Tool for analyzing multi-byte XOR ciphers)
+- Angr (Binary analysis framework)
+- Xortool (Tool for analyzing multi-byte XOR ciphers)
 
 ### Additional Tools:
-Oh My Bash (A delightful community-driven framework for managing your bash configurations)
+- Oh My Bash (A delightful community-driven framework for managing your bash configurations)
 
 ## Usage
 To use this Docker Codespace, follow these steps:
